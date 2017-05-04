@@ -6,14 +6,17 @@
     "start": "nodemon ./bin/www"
   },
   "dependencies": {
+    "bluebird": "^3.5.0",
     "body-parser": "~1.17.1",
-    "cookie-parser": "~1.4.3",
     "colors": "^1.1.2",
+    "cookie-parser": "~1.4.3",
+    "couchbase": "^2.2.5",
     "debug": "~2.6.3",
     "express": "~4.15.2",
     "express-handlebars": "^3.0.0",
     "lodash": "^4.17.4",
     "morgan": "~1.8.1",
-    "serve-favicon": "~2.4.2"
+    "serve-favicon": "~2.4.2",
+    "uuid": "^3.0.1"
   }
 }

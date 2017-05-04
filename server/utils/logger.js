@@ -12,7 +12,7 @@ var logger = {
 		var args = _.toArray(arguments)
 			.map(function(arg){
 				if(typeof arg === 'object'){
-					var string = JSON.stringigy(arg, 2);
+					var string = JSON.stringify(arg, 2);
 					return string.bold.green;
 				}else{
 					arg+= '';
